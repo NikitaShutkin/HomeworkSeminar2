@@ -6,15 +6,15 @@
 // 1 -> нет
 Console.WriteLine("Введите число от 1 до 7");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num == 6)
+if (num < 8 & num > 5)
 {
     Console.WriteLine("Ура, выходной!");
 }
-else if (num == 7)
+else if (num >0 & num < 6)
 {
-    Console.WriteLine("Ура, выходной!");
+    Console.WriteLine("Опять работать");
 }
 else
 {
-Console.WriteLine("Опять работать");
+Console.WriteLine("некоректные данные");
 }
